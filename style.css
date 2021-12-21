@@ -33,6 +33,7 @@ nav {
   font-family: 'Lobster', cursive;
   font-weight: lighter;
   font-size: 2rem;
+  color: #261c2c;
 }
 
 .big-text {
@@ -42,7 +43,29 @@ nav {
   transform: translate(-50%, -30%);
   font-size: 5rem;
   font-family: 'Lobster', cursive;
-  color: #2c272e;
+  color: #261c2c;
+}
+
+.paragrafo {
+  width: max-content;
+  max-width: 100%;
+  position: relative;
+  font-size: 20px;
+  top: 500px;
+  left: 300px;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.paragrafo:nth-child(even) {
+  width: max-content;
+  max-width: 100%;
+  position: relative;
+  font-size: 20px;
+  top: 500px;
+  left: 200px;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .intro {
@@ -67,7 +90,7 @@ nav {
 }
 
 .intro-text {
-  color: rgb(233, 233, 233);
+  color: rgb(44, 46, 67);
   font-family: 'Heebo', sans-serif;
   font-size: 3rem;
 }
